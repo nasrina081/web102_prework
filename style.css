@@ -3,10 +3,12 @@
 body {
     font-family: 'Cabin';
     background-color: #758190;
+    text-align: center;
 }
 
 #tentacles {
     width: 50px;
+    
 }
 
 .header {
@@ -19,8 +21,25 @@ body {
     margin-top: -10px;
 }
 
+
+.header input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    margin-left: 1500px;
+    font-size: 17px;
+}
+
 .stats-container {
     display: flex;
+    align-items: center;
+}
+
+.stats-container:hover {
+    cursor: pointer;
+    box-shadow: 0 0 30px lightblue;
 }
 
 .stats-card {
@@ -43,9 +62,13 @@ body {
 }
 
 .game-img {
-    width: 100%;
+    max-width: 50%;
+    max-height: 50%;
+    width: auto;
+    height: auto;
     border-radius: 5px;
     box-shadow: 0 0 10px #FFFFFF;
+    object-fit: contain;
 }
 
 .game-card {
@@ -55,8 +78,15 @@ body {
     width: 300px;
     text-align: center;
     border-radius: 7px;
+    overflow: hidden;
 }
 
+.game-card .game-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
 .game-card:hover {
     cursor: pointer;
     box-shadow: 0 0 30px lightblue;
