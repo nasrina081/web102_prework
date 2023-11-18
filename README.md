@@ -37,6 +37,8 @@ GIF created with ...
 
 Describe any challenges encountered while building the app.
 
+- I am having a lot of trouble making the images fit into the container in a way that doesn't take up the whole container but still lets you see the whole image.
+
 ## License
 
     Copyright [yyyy] [name of copyright owner]
