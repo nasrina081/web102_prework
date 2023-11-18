@@ -18,7 +18,8 @@ The following **required** functionality is completed:
 The following **optional** features are implemented:
 
 * [ ] List anything else that you can get done to improve the app functionality!
-
+- I added a search bar but am still working on adding functionality
+- I centered the text on the body page with css to improve reader visibility.
 ## Video Walkthrough
 
 Here's a walkthrough of implemented features:
