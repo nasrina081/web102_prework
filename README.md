@@ -2,7 +2,7 @@
 
 Submitted by: **Nasrin Ali**
 
-**Name of your app** is a website for the company Sea Monster Crowdfunding that displays information about the games they have funded.
+**Sea Monster Crowdfunding** is a website for the company Sea Monster Crowdfunding that displays information about the games they have funded.
 
 Time spent: **5** hours spent in total
 
